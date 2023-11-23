@@ -1,5 +1,6 @@
 #!/bin/bash
 # 此shell脚本用于将nebula 1.x版本升级到2.x的版本
+# 参考文档：https://docs.nebula-graph.com.cn/2.6.2/4.deployment-and-installation/3.upgrade-nebula-graph/upgrade-nebula-graph-to-latest/
 SCRIPT_PATH=$(readlink -f $0)
 SCRIPT_DIR_PATH=$(dirname "$SCRIPT_PATH")
 DEFAULT_OLD_NEBULA_PATH=$(dirname "$SCRIPT_DIR_PATH")
